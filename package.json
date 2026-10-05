@@ -1,0 +1,12 @@
+{
+  "name": "pi-status-line",
+  "version": "0.1.0",
+  "description": "Pi status line extension with live output throughput.",
+  "keywords": ["pi-package"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions/status-line.ts"]
+  }
+}
